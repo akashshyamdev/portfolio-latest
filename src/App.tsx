@@ -9,7 +9,7 @@ function App() {
 	return (
 		<>
 			{/* Home */}
-			<Route path='/' component={Landing} />
+			<Route path='/' exact component={Landing} />
 
 			{/* Blogs */}
 			<Route path='/blogs' component={BlogList} />
