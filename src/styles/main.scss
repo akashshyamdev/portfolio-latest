@@ -1,0 +1,13 @@
+@import 'base/animations';
+
+@import 'components/dropdown';
+@import 'components/tooltip';
+@import 'components/button';
+
+.button {
+	&:hover {
+		background-image: linear-gradient(91.32deg, #ffb800 0%, #ff8383 92.68%);
+		border-color: #ff8383;
+		color: #707070;
+	}
+}
