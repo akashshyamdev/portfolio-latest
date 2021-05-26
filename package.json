@@ -4,14 +4,6 @@
 	"private": true,
 	"dependencies": {
 		"@craco/craco": "^6.1.1",
-		"@testing-library/jest-dom": "^5.11.4",
-		"@testing-library/react": "^11.1.0",
-		"@testing-library/user-event": "^12.1.10",
-		"@types/jest": "^26.0.23",
-		"@types/node": "^15.0.1",
-		"@types/react": "^17.0.4",
-		"@types/react-dom": "^17.0.3",
-		"@types/react-lottie": "^1.2.5",
 		"axios": "^0.21.1",
 		"lottie-web": "^5.7.8",
 		"markdown-it": "^12.0.6",
@@ -22,7 +14,6 @@
 		"react-scripts": "4.0.3",
 		"react-transition-group": "^4.4.1",
 		"sass": "^1.32.12",
-		"typescript": "^4.2.4",
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
@@ -51,10 +42,19 @@
 	},
 	"devDependencies": {
 		"@tailwindcss/postcss7-compat": "^2.1.0",
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"@types/jest": "^26.0.23",
 		"@types/markdown-it": "^12.0.1",
+		"@types/node": "^15.0.1",
+		"@types/react": "^17.0.4",
+		"@types/react-dom": "^17.0.3",
+		"@types/react-lottie": "^1.2.5",
 		"@types/react-router-dom": "^5.1.7",
 		"autoprefixer": "^9",
 		"postcss": "^7",
-		"tailwindcss": "npm:@tailwindcss/postcss7-compat"
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
+		"typescript": "4.1"
 	}
 }
