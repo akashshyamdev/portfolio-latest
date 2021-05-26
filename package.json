@@ -14,7 +14,8 @@
 		"react-scripts": "4.0.3",
 		"react-transition-group": "^4.4.1",
 		"sass": "^1.32.12",
-		"web-vitals": "^1.0.1"
+		"web-vitals": "^1.0.1",
+		"prismjs": "^1.23"
 	},
 	"scripts": {
 		"start": "craco start",
