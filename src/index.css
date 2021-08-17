@@ -1,7 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.btn {
-	@apply bg-purple-600 text-white px-7 py-3 rounded-lg hover:bg-purple-700 delay-75 duration-200 transition-all ease-in;
-}
