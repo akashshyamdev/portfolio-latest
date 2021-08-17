@@ -1,7 +1,7 @@
 {
 	"extends": "stylelint-config-standard",
 	"rules": {
-		"ignoreAtRules": ["extends", "apply", "tailwind", "components", "utilities", "screen"],
+		"at-rule-allowed-list": ["extends", "apply", "tailwind", "components", "utilities", "screen", "media", "keyframes"],
 		"indentation": ["tab", { "except": ["block"] }]
 	}
 }
