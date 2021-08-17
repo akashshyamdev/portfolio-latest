@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Work() {
 	return (
-		<section className='bg-linear-gradient-1 text-white font-body py-20 flex flex-col items-center'>
+		<section className='bg-linear-gradient-1 text-white font-sans py-20 flex flex-col items-center'>
 			<h2 className='bg-linear-gradient-2 text-center text-transparent bg-clip-text text-6xl'>Work</h2>
 			<h5 className='text-center mt-5 text-3xl font-light'>Here are a few projects I've worked on recently.</h5>
 
@@ -13,7 +13,7 @@ export default function Work() {
 					<div className='work__overlay w-full h-full rounded-xl'></div>
 
 					<img
-						src={require('../../assets/images/orgamine-home.png').default}
+						src={require('../../assets/images/orgamine-home.webp').default}
 						alt='Orgamine Home'
 						className='w-full h-full rounded-xl work__image'
 					/>

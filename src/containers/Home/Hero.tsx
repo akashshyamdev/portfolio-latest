@@ -21,7 +21,7 @@ export default function Hero() {
 					Immersive, Accessible and Performative Websites
 				</h1>
 
-				<h4 className='text-2xl w-7/12 font-light font-body'>
+				<h4 className='text-2xl w-7/12 font-light font-sans'>
 					Hi, I’m Akash! A fullstack web developer and designer who is passionate about coding. I love creating websites for
 					startups and companies to increase their exposure. Checkout my{' '}
 					<a href='https://github.com/akashshyamdev' target='_blank' rel='noreferrer' className='animation-underline p-2'>

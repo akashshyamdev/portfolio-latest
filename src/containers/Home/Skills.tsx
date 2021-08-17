@@ -4,7 +4,7 @@ export default function Skills() {
 	return (
 		<section className='-mt-14 px-64 pb-20'>
 			<div
-				className='bg-white rounded-lg flex flex-row text-gray-500 font-normal font-body'
+				className='bg-white rounded-lg flex flex-row text-gray-500 font-normal font-sans'
 				style={{ boxShadow: '2px 2px 60px rgba(0, 0, 0, 0.25)' }}
 			>
 				{/* Design */}

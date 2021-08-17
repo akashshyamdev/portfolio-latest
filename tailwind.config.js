@@ -11,6 +11,7 @@ module.exports = {
 			},
 			white: '#ffffff',
 			gray: {
+				50: '#f8f8f8',
 				100: '#E1E1E1',
 				300: '#BDBDBD',
 				500: '#555454',
@@ -18,11 +19,10 @@ module.exports = {
 			transparent: 'transparent',
 		},
 		fontFamily: {
-			sans: ['Poppins'],
-			serif: ['Cantarell', 'Georgia'],
+			sans: ['Nunito'],
+			serif: ['Raleway'],
 			mono: ['ui-monospace', 'SFMono-Regular'],
 			display: ['Oswald'],
-			body: ['Nunito'],
 		},
 		extend: {
 			backgroundImage: (theme) => ({
