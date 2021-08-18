@@ -18,15 +18,18 @@ export default function Work() {
 						className='w-full h-full rounded-xl work__image'
 					/>
 
-					<div className='work__content hidden flex-col items-center'>
+					<div className='work__content flex-col items-center'>
 						<h4 className='text-3xl mt-7 text-center mb-4'>Orgamine</h4>
 
 						<p className='text-center mx-4 text-lg mb-5'>
-							This was for Orgamine, a chemical factory based in Mumbai, Maharastra. I gave the outdated website a fresh,
-							modern and attractive look.
+							This was for Orgamine, a chemical factory based in Mumbai, Maharastra. I gave the outdated website a
+							fresh, modern and attractive look.
 						</p>
 
-						<a href={`/work/orgamine${1}`} className='bg-linear-gradient-2 py-3 px-7 rounded-md text-xl mt-7 justify-self-end'>
+						<a
+							href={`/work/orgamine${1}`}
+							className='bg-linear-gradient-2 py-3 px-7 rounded-md text-xl mt-7 justify-self-end'
+						>
 							Check it out !
 						</a>
 					</div>

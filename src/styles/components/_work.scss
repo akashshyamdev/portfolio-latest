@@ -3,28 +3,32 @@
 	position: relative;
 
 	&:hover .work__overlay {
+		opacity: 1;
+	}
+
+	&:hover .work__content {
+		opacity: 1;
+	}
+
+	&__content {
+		display: flex;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		transition: 0.3s opacity;
+	}
+
+	&__overlay {
 		position: absolute;
 		display: block;
 		top: 0;
 		left: 0;
 		right: 0;
 		bottom: 0;
-	}
-
-	&:hover .work__content {
-		display: flex;
-	}
-
-	&__content {
-		display: none;
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-
-	&__overlay {
-		display: none;
 		background-color: rgba(0, 0, 0, 0.7);
+		opacity: 0;
+		transition: 0.3s opacity;
 	}
 
 	&__image {
