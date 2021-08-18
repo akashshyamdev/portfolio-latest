@@ -9,8 +9,8 @@ export default function Work() {
 
 			<hr className='bg-linear-gradient-2 h-2 border-none w-32 rounded-full mt-10' />
 
-			<div className='grid grid-cols-3 mt-24 px-32 gap-x-24 gap-y-24 work__container'>
-				<div className='work h-72' style={{ width: '500px' }}>
+			<div className='grid grid-cols-auto-fit justify-center mt-24 px-32 gap-x-24 gap-y-24 work__container w-full'>
+				<div className='work'>
 					<div className='work__overlay w-full h-full rounded-xl'></div>
 
 					<img
@@ -29,6 +29,32 @@ export default function Work() {
 
 						<Link
 							to={`/work/orgamine`}
+							className='bg-linear-gradient-2 py-3 px-7 rounded-md text-xl mt-7 justify-self-end'
+						>
+							Check it out !
+						</Link>
+					</div>
+				</div>
+
+				<div className='work'>
+					<div className='work__overlay w-full h-full rounded-xl'></div>
+
+					<img
+						src={require('../../assets/images/regression-1.webp').default}
+						alt='Orgamine Home'
+						className='w-full h-full rounded-xl work__image'
+					/>
+
+					<div className='work__content flex-col items-center'>
+						<h4 className='text-3xl mt-7 text-center mb-4'>Visual Regression Testing</h4>
+
+						<p className='text-center mx-4 text-lg mb-5'>
+							A visual regression tool for developers analyze changes in the application. A screenshot is taken
+							after feature addition and pixel compared to the previous one.
+						</p>
+
+						<Link
+							to={`/work/chris-regression`}
 							className='bg-linear-gradient-2 py-3 px-7 rounded-md text-xl mt-7 justify-self-end'
 						>
 							Check it out !

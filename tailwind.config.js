@@ -34,6 +34,9 @@ module.exports = {
 				'radial-gradient-1': 'radial-gradient(67.15% 193.11% at 77.33% 55%, #470589 0%, #110121 100%)',
 				'linear-gradient-2': 'linear-gradient(91.32deg, #FFC700 0%, #FF9283 92.68%)',
 			}),
+			gridTemplateColumns: {
+				'auto-fit': 'repeat(auto-fit, minmax(200px, 1fr))',
+			},
 		},
 	},
 	variants: {
