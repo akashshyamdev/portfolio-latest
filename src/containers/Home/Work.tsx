@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Work() {
 	return (
-		<section className='bg-linear-gradient-1 text-white font-sans py-20 flex flex-col items-center'>
+		<section className='bg-linear-gradient-1 text-white font-sans flex flex-col items-center py-20 pb-32'>
 			<h2 className='bg-linear-gradient-2 text-center text-transparent bg-clip-text text-6xl'>Work</h2>
 			<h5 className='text-center mt-5 text-3xl font-light'>Here are a few projects I've worked on recently.</h5>
 
@@ -26,12 +27,12 @@ export default function Work() {
 							fresh, modern and attractive look.
 						</p>
 
-						<a
-							href={`/work/orgamine${1}`}
+						<Link
+							to={`/work/orgamine`}
 							className='bg-linear-gradient-2 py-3 px-7 rounded-md text-xl mt-7 justify-self-end'
 						>
 							Check it out !
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
