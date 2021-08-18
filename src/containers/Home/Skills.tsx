@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Skills() {
 	return (
-		<section className='-mt-14 px-64 pb-20'>
+		<section className='-mt-28 px-64 pb-28'>
 			<div
 				className='bg-white rounded-lg flex flex-row text-gray-500 font-normal font-sans'
 				style={{ boxShadow: '2px 2px 60px rgba(0, 0, 0, 0.25)' }}
@@ -99,7 +99,11 @@ export default function Skills() {
 
 					<div className='flex flex-row justify-between items-center mt-5 gap-5'>
 						<div className='tooltip cursor-pointer'>
-							<img src={require('../../assets/svg/bootstrap-icon.svg').default} alt='Bootstrap Icon' className='h-11' />
+							<img
+								src={require('../../assets/svg/bootstrap-icon.svg').default}
+								alt='Bootstrap Icon'
+								className='h-11'
+							/>
 
 							<span className='tooltip__text'>Bootstrap</span>
 						</div>
@@ -123,7 +127,11 @@ export default function Skills() {
 						</div>
 
 						<div className='tooltip cursor-pointer'>
-							<img src={require('../../assets/svg/tailwind-icon.svg').default} alt='Tailwind CSS Icon' className='h-11' />
+							<img
+								src={require('../../assets/svg/tailwind-icon.svg').default}
+								alt='Tailwind CSS Icon'
+								className='h-11'
+							/>
 
 							<span className='tooltip__text'>Tailwind CSS</span>
 						</div>
