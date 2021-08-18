@@ -22,24 +22,34 @@ export default function Hero() {
 				</h1>
 
 				<h4 className='text-2xl w-7/12 font-light font-sans'>
-					Hi, I’m Akash! A fullstack web developer and designer who is passionate about coding. I love creating websites for
-					startups and companies to increase their exposure. Checkout my{' '}
-					<a href='https://github.com/akashshyamdev' target='_blank' rel='noreferrer' className='animation-underline p-2'>
+					Hi, I’m Akash! A fullstack web developer and designer who is passionate about coding. I love creating websites
+					for startups and companies to increase their exposure. Checkout my{' '}
+					<a
+						href='https://github.com/akashshyamdev'
+						target='_blank'
+						rel='noreferrer'
+						className='animation-underline p-2'
+					>
 						github
 					</a>{' '}
 					and{' '}
-					<a href='https://dev.to/akashshyam' target='_blank' rel='noreferrer' className='animation-underline py-2 px-3'>
+					<a
+						href='https://dev.to/akashshyam'
+						target='_blank'
+						rel='noreferrer'
+						className='animation-underline py-2 px-3'
+					>
 						blog
 					</a>
 				</h4>
 
 				<div className='mt-20'>
-					<button className='bg-linear-gradient-2 px-20 py-4 rounded-md text-3xl mr-16 button transition-all ease-out duration-300'>
+					<button className='bg-linear-gradient-2 px-20 py-4 rounded-md text-3xl mr-16 button transition-all ease-out duration-300 hover:text-white'>
 						Work
 					</button>
 
 					<button
-						className='px-20 py-4 rounded-md text-3xl button  transition-all ease-out duration-300'
+						className='px-20 py-4 rounded-md text-3xl button  transition-all ease-out duration-300 hover:text-white'
 						style={{ border: '2px solid #f8a94c' }}
 					>
 						Resume
