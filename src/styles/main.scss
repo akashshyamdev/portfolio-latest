@@ -1,11 +1,12 @@
 @import 'base/animations';
 
-@import 'components/dropdown';
-@import 'components/tooltip';
+@import 'components/work';
+@import 'components/bubble';
 @import 'components/review';
 @import 'components/slider';
 @import 'components/button';
-@import 'components/work';
+@import 'components/tooltip';
+@import 'components/dropdown';
 
 .button {
 	&:hover {
