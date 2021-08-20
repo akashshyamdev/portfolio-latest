@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Contact';
 import Hero from './Hero';
 import Skills from './Skills';
 import Testimonials from './Testimonials';
@@ -10,7 +11,8 @@ export default function Landing() {
 			<Hero />
 			<Skills />
 			<Work />
-			<Testimonials />
+			<Contact />
+			{/* <Testimonials /> */}
 		</main>
 	);
 }

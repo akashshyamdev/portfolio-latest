@@ -5,6 +5,7 @@
 	"dependencies": {
 		"@craco/craco": "^6.1.1",
 		"axios": "^0.21.1",
+		"gsap": "^3.7.1",
 		"lottie-web": "^5.7.8",
 		"markdown-it": "^12.0.6",
 		"prismjs": "^1.23",

@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
 	purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
 	darkMode: false, // or 'media' or 'class'
@@ -16,6 +18,8 @@ module.exports = {
 				300: '#BDBDBD',
 				500: '#555454',
 			},
+			red: colors.rose,
+			blue: colors.blue,
 			transparent: 'transparent',
 		},
 		fontFamily: {
