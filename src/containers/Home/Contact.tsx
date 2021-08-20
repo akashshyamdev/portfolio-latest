@@ -13,14 +13,13 @@ export default function Contact() {
 	useEffect(() => {
 		gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
 
-		const motionPath = {
-			path: '#animation-path',
-			// autoRotate: true,
-		};
-
 		gsap.to('#animation-subject', {
 			duration: 5,
-			motionPath,
+			// @ts-ignore
+			motionPath: {
+				path: '#animation-path',
+				alignOrigin: 'self',
+			},
 			scrollTrigger: {
 				pin: true,
 				start: 'bottom bottom',
@@ -31,7 +30,7 @@ export default function Contact() {
 	}, [q]);
 
 	return (
-		<section id='animation-start' className='text-gray-500 font-sans flex flex-row' ref={el}>
+		<section id='animation-start' className='text-gray-500 font-sans h-screen flex flex-row overflow-hidden' ref={el}>
 			{/* Content */}
 			<div className='w-1/2 py-20 p-20'>
 				<h2 className='bg-linear-gradient-2 text-transparent bg-clip-text text-6xl'>Contact Me</h2>
@@ -92,12 +91,13 @@ export default function Contact() {
 			<div className='bg-red-500 w-1/2 relative'>
 				{/* SVG */}
 				<svg
+					fill='none'
 					width='315'
-					id='animation-subject'
 					height='451'
 					viewBox='0 0 315 451'
-					fill='none'
+					id='animation-subject'
 					xmlns='http://www.w3.org/2000/svg'
+					className='absolute bottom-32 right-48'
 				>
 					<path
 						d='M254.123 370.686C253.362 330.854 241.579 322.404 235.783 323.502V337.218C243.119 335.161 252.764 363.965 254.123 370.686Z'
@@ -245,8 +245,9 @@ export default function Contact() {
 					className='absolute right-0 bottom-0'
 				>
 					<path
-						id='animation-path'
 						stroke='black'
+						id='animation-path'
+						className='opacity-0'
 						d='M210.495 491C121.661 460.667 25.0001 459.4 35.0001 317C47.5001 139 155 231.61 155 125.5C155 29.5 97.5 3.5 1 0.5'
 					/>
 				</svg>
