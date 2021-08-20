@@ -21,7 +21,12 @@ export default function Contact() {
 		gsap.to('#animation-subject', {
 			duration: 5,
 			motionPath,
-			scrollTrigger: { trigger: '#animation-start' },
+			scrollTrigger: {
+				pin: true,
+				start: 'bottom bottom',
+				trigger: '#animation-start',
+				scrub: 1,
+			},
 		});
 	}, [q]);
 

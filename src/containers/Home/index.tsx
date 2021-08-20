@@ -12,7 +12,7 @@ export default function Landing() {
 			<Skills />
 			<Work />
 			<Contact />
-			{/* <Testimonials /> */}
+			<Testimonials />
 		</main>
 	);
 }
