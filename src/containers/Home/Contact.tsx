@@ -44,7 +44,7 @@ export default function Contact() {
 	}, [q]);
 
 	return (
-		<section className='text-gray-500 font-sans' ref={el}>
+		<section className='text-gray-500 font-sans overflow-hidden' ref={el}>
 			<div id='animation-start' className='h-screen flex flex-row overflow-hidden w-screen'>
 				{/* Content */}
 				<div className='w-1/2 py-20 p-20'>
