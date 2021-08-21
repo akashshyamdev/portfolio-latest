@@ -143,7 +143,7 @@ export default function Contact() {
 					viewBox='0 0 315 531'
 					fill='none'
 					id='animation-subject'
-					className='absolute bottom-32 right-48'
+					className='absolute bottom-32 right-24'
 					xmlns='http://www.w3.org/2000/svg'
 				>
 					<path
