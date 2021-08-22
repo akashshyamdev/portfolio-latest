@@ -51,7 +51,7 @@ export default function Contact() {
 					<h2 className='bg-linear-gradient-2 text-transparent bg-clip-text text-6xl'>Contact Me</h2>
 					<hr className='bg-linear-gradient-2 h-2 border-none w-32 rounded-full mt-10' />
 
-					<form className='pb-8 mt-16 w-2/3'>
+					<form className='pb-8 mt-16 w-2/3' name='contact' method='POST'>
 						<div className='mb-6'>
 							<label className='block text-gray-700 text-md font-bold mb-2' htmlFor='name'>
 								Name
@@ -95,8 +95,14 @@ export default function Contact() {
 							/>
 						</div>
 
+						{/* Netlify */}
+						<input type='hidden' name='form-name' value='the-name-of-the-html-form' />
+
 						<div className='flex items-center justify-between'>
-							<button className='bg-linear-gradient-2 px-20 py-4 rounded-md text-3xl mr-16 button transition-all ease-out duration-300 hover:text-white  mt-10'>
+							<button
+								className='bg-linear-gradient-2 px-20 py-4 rounded-md text-3xl mr-16 button transition-all ease-out duration-300 hover:text-white  mt-10'
+								type='submit'
+							>
 								Submit
 							</button>
 						</div>
