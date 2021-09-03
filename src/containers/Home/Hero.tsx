@@ -1,17 +1,6 @@
 import React from "react";
-import Lottie from "react-lottie";
-import animationData from "../../assets/animations/18123-developer.json";
 
 export default function Hero() {
-	const defaultOptions = {
-		loop: true,
-		autoplay: true,
-		animationData: animationData,
-		rendererSettings: {
-			preserveAspectRatio: "xMidYMid slice",
-		},
-	};
-
 	return (
 		<section className="bg-radial-gradient-1 text-white px-28 py-20 h-screen flex flex-row justify-between pr-44">
 			<div>
@@ -58,13 +47,13 @@ export default function Hero() {
 				</div>
 			</div>
 
-			{/* <Lottie options={defaultOptions} height={600} width={1300} /> */}
 			<iframe
 				title="Spline 3D"
 				src="https://my.spline.design/portfolio-fe0fd4b29cba7bfea175804f995a9f8a/"
 				frameBorder="0"
 				width="100%"
 				height="100%"
+				allowTransparency={true}
 			></iframe>
 		</section>
 	);
