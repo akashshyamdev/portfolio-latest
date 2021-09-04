@@ -48,12 +48,13 @@ export default function Hero() {
 			</div>
 
 			<iframe
-				title="Spline 3D"
-				src="https://my.spline.design/portfolio-fe0fd4b29cba7bfea175804f995a9f8a/"
-				frameBorder="0"
 				width="100%"
 				height="100%"
+				frameBorder="0"
+				title="Spline 3D Animation"
 				allowTransparency={true}
+				style={{ backgroundColor: "transparent" }}
+				src="https://my.spline.design/portfolio-fe0fd4b29cba7bfea175804f995a9f8a/"
 			></iframe>
 		</section>
 	);
