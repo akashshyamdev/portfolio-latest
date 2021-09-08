@@ -1,16 +1,7 @@
-import React from "react";
-import Lottie from "react-lottie";
-import animationData from "../../assets/animations/18123-developer.json";
+import React, { useEffect } from "react";
 
 export default function Hero() {
-	const defaultOptions = {
-		loop: true,
-		autoplay: true,
-		animationData: animationData,
-		rendererSettings: {
-			preserveAspectRatio: "xMidYMid slice",
-		},
-	};
+	useEffect(() => {});
 
 	return (
 		<section className="bg-radial-gradient-1 text-white px-28 py-20 h-screen flex flex-row justify-between pr-44">
@@ -58,7 +49,7 @@ export default function Hero() {
 				</div>
 			</div>
 
-			<Lottie options={defaultOptions} height={600} width={1300} />
+			<canvas id="canvas3d" style={{ width: "50%" }}></canvas>
 		</section>
 	);
 }
